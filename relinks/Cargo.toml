@@ -1,0 +1,11 @@
+[package]
+name = "relinks"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+flak_util = { path = "../flak_util" }
+lazy_static = "^1.4.0"
+cranelift-entity = "^0.91.0"
